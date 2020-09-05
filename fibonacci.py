@@ -12,6 +12,5 @@ def fib(n):
 def fib2(n):
   return n if n < 2 else fib2(n-1) + fib2(n-2)
 
-
-#print fib(10)
-#print fib2(9)
+def fib3(n):
+  return int(((((1 + 5 ** 0.5) / 2) ** n) - (((1 - 5 ** 0.5) / 2) ** n)) / (5 ** 0.5))
