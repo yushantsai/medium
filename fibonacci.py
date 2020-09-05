@@ -10,10 +10,8 @@ def fib(n):
     return result
 
 def fib2(n):
-    if n < 2:
-        return n
-    else:
-        return fib2(n-1) + fib2(n-2)
+  return n if n < 2 else fib2(n-1) + fib2(n-2)
 
-print fib(10)
-print fib2(9)
+
+#print fib(10)
+#print fib2(9)
