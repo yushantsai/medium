@@ -1,5 +1,3 @@
-from datetime import datetime
-
 def fib(n):
   result=[]
   try:
